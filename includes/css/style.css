@@ -1,0 +1,59 @@
+.dock{
+    /*margin-top: 5px;*/
+    padding: 2em;
+    background-color: rgba(60, 63, 54, 0.7);
+    color: #FFF;
+    font-size: 20px;
+}
+
+div .grey {
+    margin-top: 30px;
+    /*padding: 2em;*/
+    background-color: rgba(60, 63, 54, 0.7);
+    color: #FFF;
+    font-size: 20px;
+
+}
+div .versusBackground{
+margin-top: 50%;
+
+}
+
+div .waterBackground{
+    background:  url("../img/cropped.gif");
+    background-size: 100% 100%;
+}
+
+.CSSTableGenerator {
+    border:1px solid #000000;
+
+
+
+}.CSSTableGenerator tbody{
+     border-collapse: collapse;
+     border-spacing: 0;
+     width:250px;
+     height:250px;
+ }
+
+.CSSTableGenerator td{
+
+
+    width: 50px;
+    height: 50px;
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:10px;
+    font-weight:normal;
+    color:#000000;
+}
+
+
+.CSSTableGenerator td:hover{
+    background:  url("../img/crosshair.png");
+    background-size: 100% 100%;
+
+
+}
