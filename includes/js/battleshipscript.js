@@ -5,6 +5,7 @@ $(document).ready(function(){
     var splash = document.createElement('audio');
     splash.setAttribute('src', 'http://www.freesfx.co.uk/rx2/mp3s/6/7490_1346159434.mp3');
     generateAlliedBoard();
+    generateDock();
 
 
     //region proto
@@ -14,9 +15,45 @@ $(document).ready(function(){
         this.y = y;
         this.state = state;
     }
+
+
+    function Ship(axis,length,name)
+    {
+        this.axis = axis;
+        this.length = length;
+        this.name = name;
+        var cells = [];
+    }
+
+
+
+
     //endregion
 
     //region Functions
+
+    function generateDock("")
+    {
+
+        //TODO generate dock in a loop
+        var dock = $('#dock');
+
+
+        var ships = [];
+        ships.add(var a = new Ship())
+
+
+
+        var item = $('<li>');
+        item.addClass("list-group-item");
+        item.text("asdsa");
+
+
+        
+
+        dock.append(item);
+    }
+
     function generateAlliedBoard() {
 
         var table = $("table");
