@@ -54,6 +54,7 @@ function getUserGames() {
         url: baseurl + "users/me/games" + accesstoken,
         success: function (result) {
             console.log(result);
+            return result;
         }, error: function (error) {
             console.log(error.responseText);
         }
