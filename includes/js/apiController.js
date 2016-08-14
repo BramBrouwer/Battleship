@@ -16,6 +16,7 @@ WORKING: (without models)
 */
 
 $(document).ready(function () {
+    //test functionality here
 });
 
 
@@ -111,7 +112,7 @@ Elke gebruiker heeft een collectie van games. Voor elke game kun je alle informa
 Het is alleen mogelijk gegevens op te halen van een game waar je zelf aan deel neemt.
 */
 function getGameByID(input) {
- 
+
     var id = input;
     $.ajax({
         url: baseurl + "games/" + id + accesstoken,
